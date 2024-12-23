@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener('scroll', function () {
       if (window.scrollY > 50) {
           // When scrolling down, change navbar's background and text color
-          navbar.style.backgroundColor = 'rgba(255, 255, 255, 0)'; // Transparent white background
+          navbar.style.backgroundColor = 'rgba(255, 255, 255,0)'; // Transparent white background
           navbar.style.color = 'black';  // Change text color to black when scrolling down
       } else {
           // When at the top, restore the original background and text color
@@ -16,3 +16,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   });
 });
+
+  
